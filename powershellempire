@@ -1,0 +1,21 @@
+usemodule    collection/ChromeDump;
+usemodule    collection/FoxDump;
+usemodule    collection/SharpChromium.
+
+
+usemodule collection/file_finder
+usemodule collection/minidump
+usemodule collection/keylogger
+usemodule collection/clipboard_monitor
+usemodule collection/prompt : ekrana birşeyler bastırmak için
+usemodule collection/toasted
+
+
+usemodule credential/mimikatz/dcsync_hashdump : active directory veritabanı lm-ntlm hashlerini almak için
+usemodule management/enable_rdp : rdp açar
+usemodule situational_awareness/host/antivirusproduct : antivürüs tespiti
+usemodule situational_awareness/host/applockerstatus : 
+usemodule situational_awareness/host/computerdetails : bilgisayar hakkında bilgi verir
+usemodule collection/WebcamRecorder : webcam kaydedici
+usemodule persistence/elevated/registry 
+usemodule persistence/elevated/wmi
